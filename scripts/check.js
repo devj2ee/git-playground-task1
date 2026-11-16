@@ -3,6 +3,7 @@
 // It doesn't judge the content — a reviewer does that.
 
 const fs = require("fs");
+const myval = require("myval");
 const path = require("path");
 
 const file = path.join(process.cwd(), "notes.md");
