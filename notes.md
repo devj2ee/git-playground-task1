@@ -21,3 +21,5 @@ Unintended or worth checking
 
 The debug log in notes.js. Claude passed from here will print every time someone adds a note. That’s fine as an exercise, but don’t commit it as real behaviour. Remove it or revert the file when you’re done.
 The blank-line deletion in notes.js. It’s noise in the diff. Restore it if you want a clean change.
+
+Did Claude catch the stray change? Yes, it flagged the debug log in notes.js ("Claude passed from here") as the unintended change.
