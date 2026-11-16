@@ -19,7 +19,3 @@ You added const myval = require("myval");. There is no myval package: nothing in
 I ran node scripts/check.js and it crashed with Cannot find module 'myval'. This script is what .github/workflows/check.yml runs on every pull request, so your PR would fail.
 If you meant to add a variable, it would be const myval = ...; with a value. require loads a package; it doesn’t create a variable from nothing.
 The README says this script only confirms that notes.md exists and isn’t empty, so it probably shouldn’t need changing at all.
-
-3. .idea/: probably not meant to be committed.
-
-This is the untracked settings folder for IntelliJ, your editor. .gitignore doesn’t cover it, so git add . would pick it up. Adding .idea/ to .gitignore keeps it out.
